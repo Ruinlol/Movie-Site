@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Movies</title>
+</head>
+<link rel="stylesheet" href="assets/css/style.css" />
+ <style type="text/css">
+            /* Set a size for our map container, the Google Map will take up 100% of this container */
+            #map {
+                width: 1200px;
+                height: 500px;
+            }
+
+        </style>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_YNuxeM2saiLcs62sXAYtydUqcgNARFk"></script>
+        
+
+
+<body>
+	<div class="heading">
+		<div class="left">
+			<a href="#">MOVIES</a>
+		</div>
+		<div class="right">
+			<a href="#">HOME</a>
+			<a href="#">ABOUT</a>
+			<a href="#">MOST POPULAR</a>
+			<a href="#">NEWS</a>
+			<a href="#">CONTACTS</a>
+			<a href="#"><img src="assets/img/search.png" alt="" /></a>
+		</div>
+	</div>
+	<div class="secondMenu">
+		<a href="#">CINEMA MOVIES</a>
+		<a href="#">TV SERIES</a>
+		<a href="#">CARTOONS</a>
+		<a href="#">ANIME</a>
+		<a href="#">NEW MOVIES</a>
+		<a href="#">HD MOVIES</a>
+	</div>
+	<div id="bigImg">
+		<img src="assets/img/IA.jpg" alt="" id="firstBigImg"/>
+		<img src="assets/img/ID.jpg" alt="" id="secondBigImg"/>
+		<img src="assets/img/FD.jpg" alt="" id="thirdBigImg" />
+		<div id="infoBox">
+			<h1>Ice Age Collision Course</h1>
+			<p>An epic adventure with Sid and his friends on their quest to save the world from a giant meteor.</p>
+			<button>LEARN MORE</button>
+			<button>WATCH TRAILER</button>
+		</div>
+		<div id="smallPics">		
+			<div class="donwnpic" id="firstpicutre"></div>
+			<div class="donwnpic" id="secondpicture"></div>
+			<div class="donwnpic" id="thirdpicture"></div>
+		</div>
+	</div>
+	<div id="searchBox">
+		<h1>Watch your favorite movies online</h1>
+		<div id="description">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. In maiores animi distinctio accusamus? Dolor recusandae esse hic voluptatem doloremque beatae laborum iusto aperiam natus optio perferendis laudantium incidunt deleniti aliquid!
+		</div>
+		<div id="optionBox">
+			<div class="choiseMenu">
+				<div>
+					<input type="checkbox" /><span>Action</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Adventure</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Animation</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Comedy</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Biography</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Crime</span>
+				</div>		
+				<div>
+					<input type="checkbox" /><span>Documentary</span>
+				</div>
+			</div>
+			
+			<div class="choiseMenu">
+				<div>
+					<input type="checkbox" /><span>Drama</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Family</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Fantasy</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Game-show</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>History</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Horror</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Kids</span>
+				</div>		
+				
+			</div>
+			<div class="choiseMenu">
+				<div>
+					<input type="checkbox" /><span>Music</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Musical</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Mystery</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>News</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Romance</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Sci-Fi</span>
+				</div>		
+				<div>
+					<input type="checkbox" /><span>Short</span>
+				</div>
+			</div>
+			<div class="choiseMenu">
+				<div>
+					<input type="checkbox" /><span>Sport</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Thriller</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>War</span>
+				</div>
+				<div>
+					<input type="checkbox" /><span>Western</span>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div id='buttonInSearch'>
+			<button>Search</button>
+		</div>
+	</div>
+	
+	<div id="MoreMovies-box">
+		<h1>More movies</h1>
+		<div class="options" id="firstRoll">
+			<div class="comingsoon">
+			
+				<div class="inner">
+				<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="options" id="firstRoll">
+			<div class="comingsoon">
+			
+				<div class="inner">
+				<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="options" id="firstRoll">
+			<div class="comingsoon">
+			
+				<div class="inner">
+				<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+			<div class="comingsoon">
+				<div class="inner">
+					<span class="movieTittle">Random name</span>
+					<div class="seen"><span>450</span></div>
+					<div class="duration"><span>01:27:34</span></div>
+					<div class="likes"><span>367</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="testimonials">
+		<h1>Testimonials</h1>
+		<div id="face">
+			<img src="assets/img/arrowleft.png"  alt="" id="leftarrow"/>
+			<img src="assets/img/face.jpg" alt="" id="facePic" />
+			<img src="assets/img/arrowright.png"  alt="" id="rightarrow"/>
+		</div>
+		<div id="name">John Smith</div>
+		<div id="nameUnder">Movie fan</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim recusandae ratione non modi dicta optio. Nobis neque esse fugit. Veritatis dolorum sint fugit necessitatibus ut minus ex tempore commodi quae.</p>			
+	</div>
+	
+	<div id="mailForm">
+		<h1>Mail us</h1>
+		
+			<div id="personalInfo">
+			<label for="" class="mailFormLabel">Your Name</label>
+			<input type="text" class="mailFormInput"/>
+			<label for="" class="mailFormLabel">Your Email</label>
+			<input type="text" class="mailFormInput"/>
+			</div>
+			<div id="msg">
+				<label for="" class="mailFormLabel">Your Message</label>
+				<input type="text" class="mailFormInput"/>
+			</div>
+			<button>SEND</button>
+	</div>
+	
+	 <div id="map"></div>
+	
+</body>
+<script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+</html>

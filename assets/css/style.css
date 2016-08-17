@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: black;
+  font-family: Sans-Serif;
+  width: 1200px;
+  margin: auto; }
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none; }
+
+.heading {
+  background-color: #404040;
+  height: 100%; }
+  .heading .left {
+    display: inline-block;
+    padding: 2em; }
+    .heading .left a {
+      font-size: 3em;
+      font-weight: bold;
+      color: white;
+      text-decoration: none; }
+  .heading .right {
+    float: right;
+    text-align: right;
+    line-height: 7; }
+    .heading .right a {
+      padding: .5em; }
+    .heading .right img {
+      width: 1em;
+      padding-right: 1em; }
+
+.secondMenu {
+  clear: both;
+  background-color: #ff3333;
+  padding: 2.5em; }
+  .secondMenu a {
+    margin: 2.8em; }
+
+#secondBigImg {
+  display: none; }
+
+#thirdBigImg {
+  display: none; }
+
+#smallPics {
+  position: absolute;
+  top: 743px; }
+  #smallPics #firstpicutre {
+    background-image: url("../img/IA.jpg");
+    background-size: 100%;
+    top: -29px; }
+  #smallPics #secondpicture {
+    background-image: url("../img/ID.jpg");
+    background-size: 100%; }
+  #smallPics #thirdpicture {
+    background-image: url("../img/FD.jpg");
+    background-size: 100%; }
+
+.donwnpic {
+  width: 220px;
+  height: 110px;
+  display: inline-block;
+  position: relative;
+  left: 200px; }
+
+#infoBox {
+  color: white;
+  position: absolute;
+  top: 315px;
+  width: 500px;
+  background-color: rgba(128, 128, 128, 0);
+  margin-left: 22em; }
+  #infoBox h1 {
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 3px 3px #000000;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 0 0;
+    padding: 15px; }
+  #infoBox p {
+    padding-top: 10px;
+    text-shadow: 3px 3px #000000;
+    font-size: 1.9em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 0 0 20px 20px; }
+  #infoBox button {
+    border-radius: 10px;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1em;
+    padding: 1em;
+    color: white;
+    text-shadow: 3px 3px #000000;
+    font-size: 1.3em; }
+
+#searchBox {
+  background-image: url("../img/grayBG.jpg");
+  position: relative;
+  width: 1200px;
+  color: white; }
+  #searchBox h1 {
+    font-size: 2em;
+    width: 550px;
+    font-weight: bold;
+    margin: auto;
+    padding: 1.5em; }
+  #searchBox #description {
+    width: 850px;
+    margin: auto; }
+  #searchBox #buttonInSearch {
+    padding: 30px; }
+  #searchBox button {
+    border-radius: 12px;
+    padding: 20px 30px;
+    display: block;
+    color: white;
+    margin: auto;
+    background-color: transparent;
+    font-size: 1.5em;
+    clear: both; }
+  #searchBox #optionBox {
+    width: 800px;
+    margin: auto; }
+  #searchBox .choiseMenu {
+    display: block;
+    float: left;
+    margin: 1em;
+    padding-right: 10px;
+    font-size: 1.4em;
+    font-weight: bold; }
+    #searchBox .choiseMenu div {
+      padding: 3px; }
+    #searchBox .choiseMenu input {
+      font-weight: bold;
+      border-radius: 3px; }
+
+#MoreMovies-box {
+  position: relative;
+  background-color: #333333;
+  padding-bottom: 30px; }
+  #MoreMovies-box h1 {
+    font-size: 2em;
+    width: 200px;
+    font-weight: bold;
+    margin: auto;
+    padding: 1.5em;
+    color: white; }
+  #MoreMovies-box .options {
+    width: 980px;
+    margin: auto; }
+    #MoreMovies-box .options .comingsoon {
+      background: url("../img/comingsoon.jpg");
+      width: 200px;
+      height: 298px;
+      background-size: 100%;
+      display: inline-block;
+      margin: 20px;
+      transition: all 2s ease; }
+      #MoreMovies-box .options .comingsoon span {
+        color: white;
+        position: relative;
+        top: -30px;
+        text-shadow: 1px 1px #000000; }
+      #MoreMovies-box .options .comingsoon .inner {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 20%;
+        top: 239px;
+        position: relative; }
+        #MoreMovies-box .options .comingsoon .inner .movieTittle {
+          position: absolute;
+          padding-top: 96px;
+          width: 150px;
+          padding-left: 39px;
+          font-weight: bold;
+          font-size: 1.2em; }
+        #MoreMovies-box .options .comingsoon .inner .seen {
+          background: url("../img/eye.png");
+          width: 50px;
+          height: 50px;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          display: inline-block;
+          float: left;
+          margin: 10px; }
+          #MoreMovies-box .options .comingsoon .inner .seen span {
+            color: white;
+            position: relative;
+            top: -30px;
+            text-shadow: 1px 1px #000000; }
+        #MoreMovies-box .options .comingsoon .inner .duration {
+          background: url("../img/clock.png");
+          width: 30px;
+          height: 30px;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          display: inline-block;
+          float: left;
+          margin: 10px 10px 10px 15px; }
+          #MoreMovies-box .options .comingsoon .inner .duration span {
+            color: white;
+            position: relative;
+            top: -30px;
+            text-shadow: 1px 1px #000000;
+            left: -19px; }
+        #MoreMovies-box .options .comingsoon .inner .likes {
+          background: url("../img/hearth.png");
+          width: 30px;
+          height: 30px;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          display: inline-block;
+          float: right;
+          margin: 10px; }
+          #MoreMovies-box .options .comingsoon .inner .likes span {
+            color: white;
+            position: relative;
+            top: -30px;
+            text-shadow: 1px 1px #000000; }
+
+#testimonials {
+  background-color: #ff4d4d;
+  width: 1200px;
+  margin: auto; }
+  #testimonials h1 {
+    font-size: 2em;
+    width: 200px;
+    font-weight: bold;
+    margin: auto;
+    padding: 1.5em;
+    color: white; }
+  #testimonials p {
+    color: white;
+    width: 760px;
+    font-size: 1.2em;
+    margin: auto; }
+  #testimonials #face {
+    background-size: 100%;
+    width: 378px;
+    margin: auto; }
+    #testimonials #face #facePic {
+      border-radius: 50%;
+      display: inline-block;
+      float: left; }
+    #testimonials #face #leftarrow {
+      display: inline-block;
+      position: relative;
+      left: -299px;
+      float: left;
+      top: 220px; }
+    #testimonials #face #rightarrow {
+      display: inline-block;
+      position: relative;
+      float: left;
+      left: 521px;
+      top: -220px; }
+  #testimonials p {
+    clear: both;
+    padding-bottom: 10%; }
+  #testimonials #name {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    width: 150px;
+    margin: auto;
+    top: 465px; }
+  #testimonials #nameUnder {
+    display: block;
+    position: relative;
+    font-style: italic;
+    color: white;
+    font-size: 1em;
+    width: 81px;
+    margin: auto;
+    top: 465px; }
+
+#mailForm {
+  width: 1200px;
+  padding-bottom: 20px;
+  margin: auto;
+  background-image: url("../img/grayBG.jpg"); }
+  #mailForm h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    width: 109px;
+    margin: auto;
+    padding: 100px; }
+  #mailForm .mailFormInput {
+    background-color: transparent;
+    outline-width: 0;
+    border: 0;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    font-size: 1.2em; }
+  #mailForm .mailFormLabel {
+    color: white;
+    padding-left: 10px;
+    font-size: 1.2em; }
+  #mailForm #personalInfo {
+    width: 800px;
+    margin: auto; }
+  #mailForm #msg {
+    width: 800px;
+    margin: auto; }
+  #mailForm button {
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+    display: block;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em; }
+
+/*# sourceMappingURL=style.css.map */

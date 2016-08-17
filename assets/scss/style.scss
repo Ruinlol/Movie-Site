@@ -1,0 +1,399 @@
+@import 'reset';
+@import 'vars';
+
+body{
+background-color: black;
+ font-family: Sans-Serif;
+width: 1200px;
+margin: auto;
+}
+a {
+			font-weight: bold;
+		   	color: white;
+			text-decoration: none;
+		}
+.heading {
+	background-color: $headercolor;
+	height: 100%;
+	.left {
+		display: inline-block;
+		padding: 2em;
+		
+	a {
+		font-size: $fontsize-xxlarge;
+	   	font-weight: bold;
+	   	color: white;
+		text-decoration: none;
+	 }
+	}
+	.right {
+		float: right;
+		text-align: right;
+		line-height: 7;
+		a {
+			padding: .5em;
+		}
+		img {
+		width: 1em;
+		padding-right: 1em;
+			}
+		}
+}
+
+.secondMenu {
+	clear: both;
+	background-color: $topcolor;
+	padding: 2.5em;
+	
+	a {
+		margin: 2.8em;
+	}
+}
+#secondBigImg {
+	display: none;
+}
+#thirdBigImg {
+	display: none;
+}
+#smallPics {
+	position: absolute;
+    top: 743px; 
+    #firstpicutre {
+		background-image: url('../img/IA.jpg');
+		background-size:100%;
+		top: -29px;
+	}
+	#secondpicture {
+		background-image: url('../img/ID.jpg');
+		background-size:100%;
+	}
+#thirdpicture {
+		background-image: url('../img/FD.jpg');
+		background-size:100%;
+	}
+}
+.donwnpic {
+	width: 220px;
+	height: 110px;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+}
+
+#infoBox {
+	color: white;
+    position: absolute;
+    top: 315px;
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0);
+    margin-left: 22em;
+	h1 {
+		font-weight: bold;
+		font-size: $fontsize-xxlarge;
+		text-shadow: 3px 3px #000000;
+		background: rgba(0,0,0,.5);	
+		border-radius: 20px 20px 0 0 ;
+		padding: 15px;
+	}
+	p {
+		padding-top: 10px;
+		text-shadow: 3px 3px #000000;
+		font-size: 1.9em;
+		background: rgba(0,0,0,.5);	
+		padding: 10px;
+		border-radius: 0 0 20px 20px;
+	}
+	button {
+		border-radius: 10px;
+		padding: 2em;
+		background: rgba(0,0,0,.5);		
+		margin: 1em;
+		padding: 1em;
+		color: white;
+		text-shadow: 3px 3px #000000;
+		font-size: 1.3em;	
+	}
+}
+#searchBox {
+	background-image: url('../img/grayBG.jpg');
+	position: relative;
+	width: 1200px;
+	color: white;
+	h1 {
+		font-size: $fontsize-xlarge;
+		width: 550px;
+		font-weight: bold;
+		margin: auto;
+		padding: 1.5em;
+	}
+	#description {
+		width: 850px;
+		margin:auto;
+		
+	}
+	#buttonInSearch {
+		padding:30px;
+	}
+	button {
+		border-radius: 12px;
+		padding: 20px 30px;
+		display: block;
+		color: white;
+		margin: auto;
+		background-color: transparent;
+		font-size: 1.5em;
+		clear: both;	
+		
+
+	}
+	#optionBox {
+    		width: 800px;
+    		margin: auto;
+    	}
+	.choiseMenu {
+		display: block;
+		float:left;
+		margin: 1em;
+		padding-right: 10px;
+   		font-size: 1.4em;
+    	font-weight: bold;
+    	div {
+    		padding: 3px;
+    	}
+		input {
+			font-weight: bold;
+			border-radius: 3px;
+		}
+	}
+}
+
+#MoreMovies-box{
+	position: relative;
+	background-color: #333333;
+	padding-bottom: 30px;
+
+	h1 {
+		font-size: $fontsize-xlarge;
+		width: 200px;
+		font-weight: bold;
+		margin: auto;
+		padding: 1.5em;
+		color: white;
+	}
+		.options{
+		width: 980px;
+		margin: auto;
+		
+			.comingsoon {
+			background: url('../img/comingsoon.jpg');
+			width: 200px;
+			height: 298px;
+			background-size:100%;
+			display: inline-block;
+			margin: 20px;
+			transition: all 2s ease;
+			
+			span {
+			    	color:white;
+			    	position: relative;
+			    	top: -30px;
+			    	text-shadow: 1px 1px #000000;
+			    	
+			    }			
+			
+				.inner {
+					    background-color: rgba(0, 0, 0, 0.5);
+			  			  width: 100%;
+			  			  height: 20%;
+			  			  top: 239px;
+						  position: relative;
+						  .movieTittle {
+						      position: absolute;
+							   padding-top: 96px;
+							   width: 150px;
+							   padding-left: 39px;
+							   font-weight: bold;
+							   font-size: 1.2em;
+						  }
+					
+					.seen {
+						background: url('../img/eye.png');
+						width: 50px;
+					    height: 50px;
+					    background-repeat: no-repeat;
+					    background-size: 100%;
+					    display: inline-block;
+					    float: left;
+					    margin: 10px;	
+					    span {
+						    	color:white;
+						    	position: relative;
+						    	top: -30px;
+						    	text-shadow: 1px 1px #000000;
+						    	
+						    }			
+					    	
+					}
+					.duration {
+						    background: url("../img/clock.png");
+						    width: 30px;
+						    height: 30px;
+						    background-repeat: no-repeat;
+						    background-size: 100%;
+						    display: inline-block;
+						    float: left;
+						    margin: 10px 10px 10px 15px;
+						    span {
+							    	color:white;
+							    	position: relative;
+							    	top: -30px;
+							    	text-shadow: 1px 1px #000000;
+							    	left: -19px;
+							    	
+							    }			
+					}
+					.likes {
+						background: url('../img/hearth.png');
+						width: 30px;
+					    height: 30px;
+					    background-repeat: no-repeat;
+					    background-size: 100%;
+					    display: inline-block;
+					    float: right;
+					    margin: 10px;
+						span {
+						    	color:white;
+						    	position: relative;
+						    	top: -30px;
+						    	text-shadow: 1px 1px #000000;
+						    	
+						    	
+						    }			
+					}
+				}
+			}
+		}
+		
+}
+
+#testimonials {
+	background-color: #ff4d4d;
+	width: 1200px;
+	margin: auto;
+	h1{
+		    font-size: 2em;
+		    width: 200px;
+		    font-weight: bold;
+		    margin: auto;
+		    padding: 1.5em;
+		    color: white;
+		
+	}
+	p {
+			color: white;
+			width: 760px;
+			font-size: 1.2em;
+			margin: auto;
+		}
+	#face {
+		
+		background-size: 100%;
+		width: 378px;
+		
+		margin: auto;
+		
+		#facePic {
+			    border-radius: 50%;
+    			display: inline-block;
+   				float: left;
+		}
+		#leftarrow {
+			    display: inline-block;
+			    position: relative;
+			    left: -299px;
+			    float: left;
+			    top: 220px;
+		}
+		#rightarrow {
+					display: inline-block;
+				    position: relative;
+				    float: left;
+				    left: 521px;
+				    top: -220px;
+		}
+		
+		
+	}
+	p {
+			clear:both;
+			padding-bottom: 10%;
+		}
+	#name {
+		   display: block;
+		   position: relative;
+		   font-weight: bold;
+		   color: white;
+		   font-size: 1.5em;
+		   width: 150px;
+		   margin: auto;
+		   top: 465px;
+	}
+	#nameUnder {
+		display: block;
+		position: relative;
+		font-style: italic;
+		color: white;
+		font-size: 1em;
+		width: 81px;
+		margin: auto;
+		top: 465px;
+	}
+}
+#mailForm {
+	width: 1200px;
+	padding-bottom: 20px;
+	margin: auto;
+	background-image: url('../img/grayBG.jpg');
+	h1{
+		color: white;
+		font-weight: bold;
+		font-size: 2em;
+		width: 109px;
+		margin: auto;
+		padding: 100px;
+	}
+	.mailFormInput {
+	    background-color: transparent;
+	    outline-width: 0;
+	    border:0;
+	    color: white;
+	    border-bottom: 1px solid gray;
+	    padding: 10px;
+	    font-size: 1.2em;
+	}
+	.mailFormLabel {
+		color:white;
+		padding-left: 10px;
+		font-size: 1.2em;
+	}
+	#personalInfo{
+		width: 800px;
+    	margin: auto
+	}
+	#msg{
+	width: 800px;
+    	margin: auto
+	}
+	button {
+		border-radius: 50%;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		padding: 20px 50px;
+		display: block;
+		color: white;
+		background-color: transparent;
+		font-size: 1.5em;
+	}
+}
+
